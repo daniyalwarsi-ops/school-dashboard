@@ -1,0 +1,22 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  padding: 9px 18px;
+  background: var(--button-blue);
+  color: #ffffff;
+  border: none;
+  border-radius: var(--radius-btn);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.button:hover {
+  background: var(--button-blue-hover);
+}
+
+.button:focus-visible {
+  outline: 2px solid var(--text-primary);
+  outline-offset: 2px;
+}

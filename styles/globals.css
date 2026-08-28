@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+:root {
+  /* Palette */
+  --bg-page: #e6e5e3;
+  --card-bg: #ffffff;
+  --header-bg: #eef0f3;
+  --border: #e6e8ec;
+  --text-primary: #23262f;
+  --text-secondary: #6b7280;
+  --link-icon: #9aa1ad;
+  --button-blue: #e99313;
+  --button-blue-hover: #e4c412;
+
+  --radius-card: 14px;
+  --radius-btn: 8px;
+  --font-body: "Inter", system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background: var(--bg-page);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+}
+
+a {
+  color: inherit;
+}
+
+button {
+  font-family: inherit;
+}
